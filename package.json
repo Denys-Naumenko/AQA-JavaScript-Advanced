@@ -1,0 +1,16 @@
+{
+  "name": "aqa-javascript-advanced",
+  "version": "1.0.0",
+  "description": "Welcome to the Automation QA JavaScript Project! This project is designed to help you learn JavaScript while also gaining valuable skills in Quality Assurance (QA). In this README file, you'll find information about the project, its purpose, setup instructions, and some UI/UX enhancements using Markdown.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node ./js-variables/variables.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}

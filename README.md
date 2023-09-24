@@ -13,4 +13,4 @@ To get started with this project, follow these steps:
 1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command:
 
    ```bash
-   git clone <repository-url>s
+   git clone <repository-url>
