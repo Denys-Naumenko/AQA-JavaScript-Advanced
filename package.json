@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node ./js-variables/variables.js"
+    "start" : "node ./js-operators-coercion/operatorsAndCoercion.js"
   },
   "author": "",
   "license": "ISC",
