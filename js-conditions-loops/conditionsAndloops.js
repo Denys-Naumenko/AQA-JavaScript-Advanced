@@ -1,25 +1,24 @@
 import chalk from "chalk";
 
-let employeeYearsOfExperience = 4;
-let employeeMonthsOfExperience = 8;
-let employeeTotalExperienceInMonths = employeeYearsOfExperience * 12 + employeeMonthsOfExperience;
-let employeeSalary = 0;
-let employeeBonus = 0;
+let employeeExperience = 1; 
+let employeeSalary;
+let employeeBonus;
 
-if (employeeTotalExperienceInMonths >= 6) {
-  if (employeeTotalExperienceInMonths < 12) {
+if (employeeExperience < 0.5) {  
+    employeeSalary = 0;
+    employeeBonus = 0;
+} else if (employeeExperience >= 0.5 && employeeExperience < 1) {
     employeeSalary = 100;
     employeeBonus = employeeSalary * 0.01;
-  } else if (employeeTotalExperienceInMonths < 24) {
+} else if (employeeExperience >= 1 && employeeExperience < 2) {
     employeeSalary = 333;
     employeeBonus = employeeSalary * 0.03;
-  } else if (employeeTotalExperienceInMonths < 48) {
+}else if (employeeExperience >= 2 && employeeExperience < 4) {
     employeeSalary = 555;
     employeeBonus = employeeSalary * 0.04;
-  } else {
+} else if ( employeeExperience >= 4 ) {
     employeeSalary = 666;
-    employeeBonus = employeeTotalExperienceInMonths/12/100 * employeeSalary  ;
-  }
+    employeeBonus = employeeSalary * employeeExperience;
 }
 
 employeeSalary += employeeBonus; // Add theм bonus to the salary
@@ -78,23 +77,21 @@ for (let i = 1; i <= limitMax; i++) {
     console.log(chalk.bgMagenta(i));
   }
 
-let numberA = 10;
-let numberB = 15;
-let biggerNumber = "";
-
-if (numberA > numberB) {
-  biggerNumber = "The bigger number is: " + numberA;
-} else if (numberA < numberB) {
-  biggerNumber = "The bigger number is: " + numberB;
-} else {
-  biggerNumber = "The numbers are equal.";
-}
-
-console.log(chalk.greenBright(biggerNumber));
+let numA = 10;
+let numB = 8;
+let compare =
+    numA > numB
+        ? numA + " bigger than " + numB
+        : numA<numB
+            ? numB + " bigger than " + numA
+            : numA === numB
+                ? numA + " equals " + numB
+                : "Error"
+console.log(chalk.greenBright(compare));
 
 
 let rawMessage = "Javascript is fun";
-let formatedMessage ="";
+let formattedMessage ="";
 let index = 0;
 
 
@@ -110,8 +107,8 @@ while (index < rawMessage.length) {
     break;
   }
 
-  formatedMessage += currentChar;
+  formattedMessage += currentChar;
   index++;
 }
 
-console.log(chalk.cyan(formatedMessage));
+console.log(chalk.cyan(formattedMessage));
