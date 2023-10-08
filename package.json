@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "coercion" : "node ./js-operators-coercion/operatorsAndCoercion.js",
-    "loops": "node ./js-conditions-loops/conditionsAndloops.js"
+    "loops": "node ./js-conditions-loops/conditionsAndloops.js",
+    "objects": "node ./js-objects/objects.js"
   },
   "author": "",
   "license": "ISC",
