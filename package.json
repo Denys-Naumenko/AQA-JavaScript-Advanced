@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "coercion" : "node ./js-operators-coercion/operatorsAndCoercion.js",
     "loops": "node ./js-conditions-loops/conditionsAndloops.js",
-    "functions": "node ./js-functions-arrays/functions-array.js"
+    "functions": "node ./js-functions-arrays/functions-array.js",
+    "objects": "node ./js-objects/objects.js"
   },
   "author": "",
   "license": "ISC",
