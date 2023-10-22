@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "coercion" : "node ./js-operators-coercion/operatorsAndCoercion.js",
+    "coercion": "node ./js-operators-coercion/operatorsAndCoercion.js",
     "loops": "node ./js-conditions-loops/conditionsAndloops.js",
     "functions": "node ./js-functions-arrays/functions-array.js",
     "objects": "node ./js-objects/objects.js"
@@ -15,5 +15,11 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "prettier": "3.0.3"
   }
 }
