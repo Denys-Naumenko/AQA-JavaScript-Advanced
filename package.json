@@ -5,11 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "coercion": "node ./js-operators-coercion/operatorsAndCoercion.js",
+    "coercion" : "node ./js-operators-coercion/operatorsAndCoercion.js",
     "loops": "node ./js-conditions-loops/conditionsAndloops.js",
     "functions": "node ./js-functions-arrays/functions-array.js",
-    "objects": "node ./js-objects/objects.js"
+    "objects": "node ./js-objects/objects.js",
+    "spread": "node ./js-OOP/spreadAndRest.js",
+    "classes": "node ./js-OOP/classes.js"
   },
   "author": "",
   "license": "ISC",
