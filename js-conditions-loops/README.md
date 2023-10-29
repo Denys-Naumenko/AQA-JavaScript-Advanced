@@ -6,14 +6,14 @@ This repository is designed to help you learn and practice loops and conditional
 
 1. [Introduction](#introduction)
 2. [Loops](#loops)
-    - [For Loop](#for-loop)
-    - [While Loop](#while-loop)
-    - [Do-While Loop](#do-while-loop)
+   - [For Loop](#for-loop)
+   - [While Loop](#while-loop)
+   - [Do-While Loop](#do-while-loop)
 3. [Conditional Statements](#conditional-statements)
-    - [If Statement](#if-statement)
-    - [Else Statement](#else-statement)
-    - [Else If Statement](#else-if-statement)
-    - [Switch Statement](#switch-statement)
+   - [If Statement](#if-statement)
+   - [Else Statement](#else-statement)
+   - [Else If Statement](#else-if-statement)
+   - [Switch Statement](#switch-statement)
 
 ## Introduction
 
@@ -34,6 +34,7 @@ for (let i = 0; i < 5; i++) {
 ```
 
 ### While Loop
+
 The 'while loop' repeats a block of code as long as a specified condition is true.
 
 ```javascript
@@ -101,7 +102,6 @@ if (grade >= 90) {
 ### Switch Statement
 
 The `switch` statement allows you to perform different actions based on different conditions.
-
 
 ```javascript
 let day = "Monday";

@@ -1,6 +1,7 @@
 # Coercion in JavaScript - A User-Friendly Guide
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [What is Coercion?](#what-is-coercion)
 - [Why Coercion Matters](#why-coercion-matters)
@@ -68,7 +69,6 @@ To handle coercion safely, consider the following tips:
 - Be Explicit: When you want to convert data types, use explicit type conversion functions like Number(), String(), or parseInt() to make your intentions clear.
 
 - Use isNaN(): When dealing with user input or potentially non-numeric values, use isNaN() to check if a value is NaN (Not-a-Number).
-
 
 ```javascript
 const userInput = "abc";
